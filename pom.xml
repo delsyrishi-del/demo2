@@ -20,7 +20,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
-                <version>4.2.5</version>
+                <version>3.5.0</version>
                 <executions>
                     <execution>
                         <id>copy-resources</id>
@@ -30,7 +30,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory><project.based dir>/docs</outputDirectory>
+                            <outputDirectory>g{project.based dir>}/docs</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>src/main/resources</directory>
